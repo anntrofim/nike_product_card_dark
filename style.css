@@ -1,0 +1,204 @@
+@font-face {
+	font-family: MuseoSansRounded;
+	src: url(MuseoSansRounded-100.otf);
+}
+
+body {
+	font-family: MuseoSansRounded, sans-serif;
+}
+
+.nike {
+	width: 800px;
+	height: 600px;
+	background: url(background.png) no-repeat;
+	background-size: cover;
+	/*border: 1px solid black;*/
+	position: relative;
+	/*margin: 0 auto;*/
+
+
+}
+
+.card {
+	width: 85%;
+	height: 70%;
+	background-color: #111a28;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	box-shadow: 0 0 40px 5px black;
+}
+
+.card__logo {
+	/*width: 80px;*/
+	width: 10%;
+	margin: 20px;
+}
+
+.card__product {
+	/*border: 1px solid black;*/
+	position: relative;
+}
+
+.card__view {
+	/*border: 1px solid black;*/
+	width: 60%;
+}
+
+.card__photo {
+	margin: 70px 40px;
+	/*margin-left: 40px;
+	margin-top: 70px;*/
+}
+
+.card__slider {
+	width: 20%;
+	margin: 0px auto;
+	/*margin-bottom: 10px;*/
+}
+
+.card__bullet {
+	display: inline-block;
+	/*background-color: #ffffff;*/
+	/*box-sizing: border-box;*/
+	margin: 3px;
+	width: 9px;
+	height: 9px;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+
+}
+
+.card__bullet:hover {
+	border: 3px solid #6d727b;
+	/*outline: 2px solid #6d727b;*/
+}
+
+.card__info {
+	color: #e1e1e1;
+	position: absolute;
+	right: 30px;
+	top: -20px;
+	width: 30%;
+
+	/*font-weight: normal;   /*Почему не работает*/
+*/
+}
+
+.card__title {
+	font-weight: normal;
+
+}
+
+.card__description {
+	font-weight: normal;
+	font-size: 15px;
+	margin-top: -10px;
+
+}
+
+.card__rate {
+	position: relative;
+	margin: 25px 0;
+	letter-spacing: -3px;
+
+}
+
+.card__rate-checked {
+	position: absolute;
+	top: 0;
+}
+
+.card__star-checked {
+	opacity: 0;
+	cursor: pointer;
+
+
+}
+.card__star-checked:active {
+	opacity: 1;
+}
+
+.card__char {
+	margin: 25px 0;
+
+}
+
+.card__size {
+	background-color: transparent;
+	color: #b2b3b5;
+	font-family: MuseoSansRounded, sans-serif;   /*Почему приходится прописывать здесь, если это есть в body ??*/
+	border: 1px solid #4f5560;
+	outline: none;
+	padding: 7px;
+
+
+}
+
+.card__qty {
+	background-color: transparent;
+	color: #b2b3b5;
+	font-family: MuseoSansRounded, sans-serif;
+	border: 1px solid #4f5560;
+	outline: none;
+	padding: 7px;
+
+
+
+}
+
+.card__add {
+	background-color: transparent;
+	color: #b2b3b5;
+	border: 1px solid #4f5560;
+	padding: 10px;
+	width: 80%;
+	font-family: MuseoSansRounded, sans-serif;
+	outline: none;
+
+
+}
+
+.card__add:hover {
+	background-color: #202835;
+	cursor: pointer;
+}
+
+.card__size:hover {
+	background-color: #202835;
+	cursor: pointer;
+
+}
+
+.card__qty:hover {
+	background-color: #202835;
+	cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+.card__bullet--gray {
+	background-color: #1f273f;
+}
+
+.card__bullet--white {
+	background-color: #ffffff;
+}
+
+.card__bullet--red {
+	background-color: #ed3333;
+}
+
+.card__bullet--blue {
+	background-color: #29e3ea;
+}
+
